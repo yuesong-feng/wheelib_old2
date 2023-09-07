@@ -1,0 +1,21 @@
+{
+    "files.associations": {
+        "stddef.h": "c",
+        "stdlib.h": "c",
+        "stdio.h": "c",
+        "float.h": "c",
+        "types.h": "c",
+        "limits.h": "c",
+        "stdbool.h": "c",
+        "_types.h": "c",
+        "_int8_t.h": "c",
+        "type.h": "c",
+        "skplst.h": "c",
+        "cmp.h": "c",
+        "debug.h": "c",
+        "string.h": "c",
+        "__mutex_base": "c",
+        "hardware.h": "c",
+        "assert.h": "c"
+    }
+}
