@@ -40,12 +40,12 @@ typedef unsigned long long uint64;
 typedef float float32;
 typedef double float64;
 
-#if __WORDSIZE == 32
-typedef unsigned int uintptr;
-typedef unsigned int size;
-#else
+#if defined(WL_64)
 typedef unsigned long long uintptr;
 typedef unsigned long long size;
+#elif defined(WL_32)
+typedef unsigned int uintptr;
+typedef unsigned int size;
 #endif
 
 #ifdef bool

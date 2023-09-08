@@ -17,7 +17,8 @@
  */
 #ifndef LIST_H
 #define LIST_H
-#include <type.h>
+
+#include "type.h"
 
 #define LIST(TYPE) \
   struct {         \

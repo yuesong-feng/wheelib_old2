@@ -18,7 +18,10 @@
 #ifndef HARDWARE_H
 #define HARDWARE_H
 
-#define __WORDSIZE 64
-#define __LITTLE_ENDIAN__ 1
+#define WL_64
+#undef WL_32
+
+#define WL_LITTLE_ENDIAN
+#undef WL_BIG_ENDIAN
 
 #endif
