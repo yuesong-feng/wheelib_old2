@@ -1,9 +1,8 @@
-#include "log.h"
-#include "thrd.h"
-#include "mem.h"
-#include "debug.h"
 #include <stdlib.h>
 #include <string.h>
+#include "thrd.h"
+#include "log.h"
+#include "debug.h"
 
 semaphore_t sem;
 event_t evt1;

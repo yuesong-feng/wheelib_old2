@@ -3,7 +3,7 @@ SRC_DIR := src
 LIB := wheelib
 INC_DIR := -Isrc
 LIB_DIR := -L$(BUILD_DIR)/lib
-OTHER_LIBS := -lreadline -lpthread
+OTHER_LIBS := -lpthread
 CC := gcc
 CFLAGS := -g -Wall -O0
 
