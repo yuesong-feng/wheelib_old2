@@ -37,9 +37,9 @@ int main(int argc, char const *argv[]) {
   struct info_node n2 = {234, LIST_NODE_INITIALIZER};
   LIST_ADD_TAIL(i.list, &n2, link);
 
-  LOG_INFO("%d", LIST_GET_LEN(i.list));
+	LOG_INFO("%d", LIST_GET_LEN(i.list));
 
   struct info_node *p = NULL;
-  LIST_FOR_EACH(i.list, p, link) { LOG_INFO("%d", p->id); }
+	LIST_FOR_EACH(i.list, p, link) { LOG_INFO("%d", p->id); }
   return 0;
 }
